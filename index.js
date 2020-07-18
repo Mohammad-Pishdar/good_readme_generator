@@ -18,27 +18,27 @@ const questions = [{
     },
     {
         type: "input",
-        name: "installation instructions",
+        name: "installation_instructions",
         message: "Enter installation instructions for your project"
     },
     {
         type: "input",
-        name: "usage information",
+        name: "usage_information",
         message: "Enter usage information for your project"
     },
     {
         type: "input",
-        name: "contribution guidelines",
+        name: "contribution_guidelines",
         message: "Enter contribution guidelines for your project"
     },
     {
         type: "input",
-        name: "test instructions",
+        name: "test_instructions",
         message: "Enter test instructions for your project"
     },
     {
         type: "list",
-        name: "licence",
+        name: "license",
         message: "Choose a licence for your project",
         choices: ['MIT License', 'GNU Lesser General Public License v3.0', 'Mozilla Public License 2.0', 'GNU Affero General Public License v3.0', 'The Unlicense', 'Apache License 2.0', 'GNU General Public License v3.0']
     },
