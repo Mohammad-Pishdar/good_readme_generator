@@ -58,14 +58,15 @@ function promptUser() {
     return inquirer.prompt(questions);
 }
 
-// function to write README file
-// function writeToFileAsync(fileName, data) {}
-
 // function to initialize program
 async function init() {
-
-    const answers = await promptUser();
-    console.log(generateMarkdown(answers));
+    try {
+        const answers = await promptUser();
+        const markdown = generateMarkdown(answers);
+        await writeToFileAsync("readme.md", markdown);
+    } catch (err) {
+        console.log(err);
+    }
 }
 
 // function call to initialize program
