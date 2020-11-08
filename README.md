@@ -22,6 +22,8 @@
   ## Usage
 
   This app could be used to generate nicely formatted and professional looking readme files for your projects on GitHub using markdown. You run the app in your system's command line by typing node index.js and it will then ask you a series of questions to create an already formatted nice-looking README.md file for your project using your inputs as the user. It will include a main title, with all the sub-headings for 'Description', a clickable 'Table of contents', 'Installation', 'Usage', 'License', 'Contributing', 'Tests' and 'Questions' sections. It will also shows a badge with a link to the type of license you chose for your project at the top of your README.md file as a badge. You can watch a video walkthrough of how to use this app [here](https://drive.google.com/file/d/16p5e1HvHKgzLqPI-qcGbYMsMVs02XTMw/view).
+  ![readme generation process](https://github.com/Mohammad-Pishdar/good_readme_generator/blob/master/readmeImages/goodreadmegenerator1.jpg)
+  ![generated readme](https://github.com/Mohammad-Pishdar/good_readme_generator/blob/master/readmeImages/goodreadmegenrator2.jpg)
 
   ## License
 
